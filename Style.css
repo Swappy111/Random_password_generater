@@ -65,3 +65,57 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        margin: 5%;
+        padding-top: 150px;
+    }
+
+    .container h1 {
+        font-size: 36px;
+    }
+
+    .display {
+        align-items: center;
+        padding: 15px;
+    }
+
+    .display img {
+        width: 25px;
+    }
+
+    .display input {
+        font-size: 20px;
+        width: 100%;
+        margin: 5px;
+        align-items: center;
+    }
+
+    .container button {
+        font-size: 20px;
+        padding: 14px 22px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container h1 {
+        font-size: 28px;
+    }
+
+    .display {
+        padding: 12px;
+    }
+
+    .display input {
+        font-size: 18px;
+    }
+
+    .container button {
+        font-size: 18px;
+        padding: 12px 20px;
+    }
+}
